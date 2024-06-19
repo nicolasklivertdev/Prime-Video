@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Prime Video</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <img src="https://m.media-amazon.com/images/G/01/digital/video/web/Logo-min.png" class="navprimeimg">
+        <span class="navelemnts">Inicio<img src="seta-para-baixo.png" class="navelemnts"></span>
+        <span class="navelemnts">Loja<img src="seta-para-baixo.png" class="navelemnts"></span>
+        <span class="navelemnts">TV ao vivo</span>
+        <span class="navelemnts" id="Categorias">Categorias<img src="seta-para-baixo.png" class="navelemnts"></span>
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxjaXJjbGUgaWQ9ImEiIGN4PSI4IiBjeT0iOCIgcj0iOCIvPjxtYXNrIGlkPSJiIiBtYXNrQ29udGVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgbWFza1VuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiBmaWxsPSIjZmZmIj48dXNlIHhsaW5rOmhyZWY9IiNhIi8+PC9tYXNrPjwvZGVmcz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIG9wYWNpdHk9Ii43Ij48dXNlIHN0cm9rZT0iI0ZGRiIgbWFzaz0idXJsKCNiKSIgc3Ryb2tlLXdpZHRoPSI0IiB4bGluazpocmVmPSIjYSIvPjxwYXRoIGQ9Im0xMy40MTQgMTEgNi4zNjcgNi4zNjdhLjk5NS45OTUgMCAwIDEtLjAwMyAxLjQxMWMtLjM5LjM5LTEuMDMuMzg1LTEuNDEuMDAzTDEyIDEyLjQxNCAxMy40MTQgMTFaIiBmaWxsPSIjRkZGIi8+PC9nPjwvc3ZnPg==" class="navelemnts" id="lupa">
+        <span class="navelemnts" id="Experimente">Experimente grátis</span>
+        <span class="navelemnts">PT<img src="seta-para-baixo.png" class="navelemnts"></span>
+        <img class="navprofile" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNTAgMTAwYzI3LjYxNCAwIDUwLTIyLjM4NiA1MC01MFM3Ny42MTQgMCA1MCAwIDAgMjIuMzg2IDAgNTBzMjIuMzg2IDUwIDUwIDUwWiIgZmlsbD0idXJsKCNhKSIvPjxwYXRoIGQ9Ik04Ni43MTggODMuOTM5Qzc3LjU4MyA5My44MTYgNjQuNTE0IDEwMCA1MCAxMDBjLTE0LjczIDAtMjcuOTc0LTYuMzctMzcuMTI0LTE2LjUwNiAxLjIxMi0zLjA5IDIuOTIyLTUuOTAyIDUuMzA0LTguMjI4QzI1LjQ2IDY4LjE1NyAzOC40MjUgNjUuMjM1IDUwIDY1LjIzNWMxMS41NTQgMCAyMy42NTUgMi45MDYgMzAuOTMzIDkuOTkzIDIuNTEyIDIuNDQ2IDQuNDA1IDUuNDMgNS43ODUgOC43MVoiIGZpbGw9InVybCgjYikiLz48cGF0aCBkPSJNNjkuNTIgMzcuMTFjLjc5NC0xMi4yMTMtNS44OS0yMi4yNjYtMTkuNDY4LTIyLjI2Ni0xMy41NzkgMC0yMC4yNjMgMTAuMDUzLTE5LjQ2OCAyMi4yNjUuNzk1IDEyLjIxMyA4Ljc5NCAyMC43MDMgMTkuNDY4IDIwLjcwMyAxMC42NzMgMCAxOC42NzMtOC40OSAxOS40NjgtMjAuNzAzWiIgZmlsbD0idXJsKCNjKSIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAiIHkxPSIwIiB4Mj0iMTAwIiB5Mj0iMTAwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzRDNzE4RSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzJCNDA1MyIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIiB4MT0iNDEuNTU0IiB5MT0iMzAuMzQ3IiB4Mj0iODIuNzEyIiB5Mj0iNzEuNTM5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuODUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJjIiB4MT0iNDEuNTU0IiB5MT0iMzAuMzQ3IiB4Mj0iODIuNzEyIiB5Mj0iNzEuNTM5IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIuODUiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg==">
+    </nav>
+    <header>
+        <h1 class="header">Filmes, séries, esportes e muito mais</h1>
+        <p class="subtitle">Assista a Amazon Originais premiados e aproveite entrega grátis e rápida em diversos produtos. Com o plano anual você parcela em até 12x de R$ 13,90/mês sem juros (R$ 166,80 por ano).</p>
+        <button id="buttonheader">Já é Prime? Faça login</button>
+        <div class="mid">
+            <span class="line"></span>
+            <p>ou</p>
+            <span class="line"></span>
+        </div>
+        <button id="buttonheader">Experimente 30 dias grátis*</button>
+        <p class="mensalidade">Após 30 dias, o Amazon Prime é renovado automaticamente por R$ 19,90/mês ou até 12x de R$ 13,90 (R$ 166,80/ano). Cancele a qualquer momento.</p>
+    </header>
+    <section class="s1">
+        <div class="can">
+            <h1 class="h1can">Adicione canais que você ama na sua assinatura Prime</h1>
+            <p class="pcan">Com o Prime Video Channels, os clientes Prime podem assinar os canais que amam sem compromissos de longo prazo, ou seja, podendo cancelar a qualquer momento. Experimente canais selecionados por 7 dias grátis e assista tudo no mesmo lugar, onde estiver.</p>
+        </div>
+        <div class="canimg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/AMZN_MLP_image_logo_BR_ParamountPlus_426x294.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/merch/2024/AMZN_MLP_image_logo_Template_426x294_BR_V1.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/AMZN_MLP_image_logo_Premiere_426x294.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/s-z/telecinechannelbr/heroes/AMZN_MLP_image_logo_Template_426x294.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/AMZN_MLP_image_logo_BR_DiscoveryPlus_426x294.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/AMZN_MLP_image_logo_BR_Looke_426x294.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/s-z/universalplusbr/heroes/AMZN_MLP_image_logo_Template_426x294.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/a-f/adrenalinapurabr/heroes/AMZN_MLP_image_logo_ES_Template_426x294.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/m-r/mgmmx/heroes/AMZN_MLP_image_logo_Template_426x294.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/s-z/sonyonebr/heroes/AMZN_MLP_image_logo_Template_426x294.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/m-r/mubibr/heroes/AMZN_MLP__image_logo_BR_Template_426x294.jpg">
+            <img class="imgcan" src="https://m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/a-f/crunchyrollbr/heroes/AMZN_MLP_image_logo_Template_426x294.jpg">
+        </div>
+    </section>
+    <section class="s2">
+        <div class="s2content">
+            <h1 class="loja">Loja Prime Video</h1>
+            <p class="assinatura">Ainda mais filmes, agora disponíveis para compra ou aluguel - assinatura Prime não necessária.</p>
+            <button class="s2button">Alugar ou comprar filmes</button>
+        </div>
+    </section>
+    <section class="s3">
+        <div class="img1">
+            <img class="s3img" src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/PV_Benefits_Devices_UPDATED.png">
+            <div class="s3content">
+                <h1 class="s3h1">Assista onde quiser</h1>
+                <p class="s3p">Assista no site ou no app Prime Video em seu celular, tablet ou seleção de Smart TVs — em até 3 dispositivos ao mesmo tempo.</p>
+            </div>
+        </div>
+        <div class="img2">
+            <img class="s3img" src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/PV_Benefits_Download_UPDATED.png">
+            <div class="s3content">
+                <h1 class="s3h1">Baixe para assistir quando e onde quiser</h1>
+                <p class="s3p">Assista offline no app Prime Video ao baixar títulos em seu iPhone, iPad, tablet ou dispositivo Android.</p>
+            </div>
+        </div>
+        <div class="img3">
+            <img class="s3img" src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/PV_Benefits_DataSaver_UPDATED.png">
+            <div class="s3content">
+                <h1 class="s3h1">Economia de dados</h1>
+                <p class="s3p">Controle o uso de dados ao baixar e assistir a vídeos em uma seleção de celulares e tablets.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <img class="imgfooter" src="https://m.media-amazon.com/images/G/01/digital/video/acquisition/web_footer_logo._CB462908456_.png">
+        <div class="footer">
+            <a href="#">Termos e aviso de privacidade</a>
+            <a href="#">Envie-nos comentários</a>
+            <a href="#">Help</a>
+        </div>   
+        <p class="pfooter">© 1996-2024, Amazon.com, Inc. ou suas afiliadas</p>
+    </footer>
+</body>
+</html>
